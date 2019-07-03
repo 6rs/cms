@@ -22,8 +22,7 @@
     },
     "scripts": {
         "post-install-cmd": [
-            "Illuminate\\Foundation\\ComposerScripts::postInstall",
-            "php artisan make:auth"
+            "cd ../../../ && php artisan make:auth"
         ]
     }
 }
