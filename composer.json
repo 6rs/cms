@@ -1,0 +1,23 @@
+{
+    "name": "sixredsquares/cms",
+    "description": "Sixredsquares content management system",
+    "authors": [
+        {
+            "name": "6rs-Leon",
+            "email": "leon@6rs.co.uk"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+        	"sixredsquares\\cms\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "sixredsquares\\cms\\CmsServiceProvider"
+            ]
+        }
+    }
+}
